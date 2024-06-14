@@ -11,12 +11,7 @@ lang: en
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 
 timezone: Europe/Moscow
-=======
-timezone:
->>>>>>> 7649884 (Hell! I have no clue what happened here.)
-=======
-timezone: Europe/Moscow
->>>>>>> 2382115 (Initial Configuration)
+
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
