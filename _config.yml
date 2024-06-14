@@ -98,15 +98,9 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 avatar: images/secure-scribe2.jpeg
-=======
-avatar:
->>>>>>> 7649884 (Hell! I have no clue what happened here.)
-=======
-avatar: images/secure-scribe2.jpeg
->>>>>>> b3d0712 (Added post to the ABOUT section)
+
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
