@@ -22,6 +22,10 @@
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/qawam-musiliu-2a23b31b6/'                  # Fill with your Linkedin homepage
+
+- type: telegram
+  icon: 'fa-brands fa-telegram'
+  url:  'https://t.me/secure_scribe'
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
