@@ -1,0 +1,9 @@
+- title: Gophercises
+  description: Exercises for budding gophers (Go Developers)
+  link: https://gitlab.com/cqawam/gophercises
+  tags: ["Go"]
+
+- title: Desires
+  description: Integrated SCA scan into CI/CD pipelines.
+  link: https://gitlab.com/cqawam/desires
+  tags: ["DevSecOps"]

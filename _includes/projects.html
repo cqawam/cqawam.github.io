@@ -1,0 +1,54 @@
+<article class="post-preview">
+  <a href="{{ include.project.link }}" target="_blank" class="post-link">
+    {% if include.project.thumbnail %}
+    <img class="post-thumbnail" src="{{ include.project.thumbnail }}" alt="{{ include.project.title }}">
+    {% endif %}
+    <h3 class="post-title">{{ include.project.title }}</h3>
+  </a>
+  <p class="post-description">{{ include.project.description }}</p>
+
+  {% if include.project.tags %}
+  <div class="post-tags">
+    {% for tag in include.project.tags %}
+    <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>
+
+<style>
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.post-preview {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1rem;
+  background: var(--card-bg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-preview:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.post-thumbnail {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.post-tags .tag {
+  background: var(--text-muted-color);
+  color: var(--text-color);
+  font-size: 0.75rem;
+  border-radius: 6px;
+  padding: 2px 6px;
+  margin-right: 4px;
+}
+
+</style>
