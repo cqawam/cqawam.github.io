@@ -16,12 +16,12 @@ timezone: Europe/Moscow
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Secure Scribe # the main title
+title: In AppSec # the main title
 
-tagline: Documenting Defensive Security Strategies # it will display as the sub-title
+tagline: Application and Infrastructure Security # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  security, incident response, forensics, malware analysis, ctf.
+  security, appsec, ctf, research, vulnerability, web
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -101,7 +101,7 @@ cdn:
 
 # the avatar on sidebar, support local or CORS resources
 
-avatar: images/secure-scribe2.jpeg
+avatar: images/inappsec.png
 
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.

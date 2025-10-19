@@ -1,7 +1,8 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
+- type: gitlab
+  icon: "fab fa-gitlab"
+  url: "https://gitlab.com/cqawam"
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
@@ -25,7 +26,7 @@
 
 - type: telegram
   icon: 'fa-brands fa-telegram'
-  url:  'https://t.me/secure_scribe'
+  url:  'https://t.me/in_appsec'
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'

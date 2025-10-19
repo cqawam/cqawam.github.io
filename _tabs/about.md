@@ -4,14 +4,36 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Welcome to Secure Scribe, a resource hub for defensive security. This website features both blue team and red team strategies, incident response, digital forensics, and malware analysis. These include innovative projects, challenge writeups, and articles to empower security enthusiasts and professionals. Whether you are a defender or a red teamer, there is a great deal to learn on Secure Scribe.
+Hey there, I’m Qawam.  
+I’m a junior web security researcher who loves figuring out how applications and systems work,  
+*responsibly* breaking and more importantly fixing them.  
+  
+I spend most of my time hunting for bugs, analyzing CVEs, and building *cool* stuffs.  
+Also, I enjoy reading, cycling, or running (gotta stay in motion).
 
-## About Me
-Hello! I'm Qawam, the creator of Secure Scribe. With extensive learning experience and hands-on knowledge gained through previous internship and home lab setups, I intend to further develop skills in incident response, digital forensics, and malware analysis. Ultimately, I hope to secure a full time role and become part of a great team.
-<p>Join me on this journey. I promise it will be fun!</p>
 
-## Connect with Me
-You can send your encrypted message to me using PGP. My Public key is below:
+# Socials
+You can reach out to me via:  
+<table>
+    <tr>
+        <td style="border: 1px solid #554f4f"><strong>Username</strong></td>
+        <td style="border: 1px solid #554f4f"><strong>Platform</strong></td>
+    </tr>
+    <tr>
+        <td><a href="https://twitter.com/cqawam" rel="noreferrer" target="_blank">cqawam</a></td>
+        <td>Twitter</td>
+    </tr>
+    <tr>
+        <td><a href="https://t.me/ctheboynextdoor" rel="noreferrer" target="_blank">ctheboynextdoor</a></td>
+        <td>Telegram</td>
+    </tr>
+    <tr>
+        <td><a href="https://www.linkedin.com/in/qawam-musiliu-2a23b31b6/" rel="noreferrer" target="_blank">Qawam Musiliu</a></td>
+        <td>Linkdln</td>
+    </tr>
+</table>  
+
+You can send your encrypted message to me:
 <details markdown="1">
 <summary> Public GPG Key </summary>
 ```
@@ -30,20 +52,3 @@ i5Tw3Xlkdg8D6kQuAQC5Wvv/tIm6tidSH+5vOxXkhX3RdslFZ51y569QTGZECg==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 </details>
-
-### Socials
-
-<table>
-    <tr>
-        <td style="border: 1px solid #554f4f"><strong>Username</strong></td>
-        <td style="border: 1px solid #554f4f"><strong>Platform</strong></td>
-    </tr>
-    <tr>
-        <td><a href="https://twitter.com/cqawam" rel="noreferrer" target="_blank">cqawam</a></td>
-        <td>Twitter</td>
-    </tr>
-    <tr>
-        <td><a href="https://www.linkedin.com/in/qawam-musiliu-2a23b31b6/" rel="noreferrer" target="_blank">Qawam Musiliu</a></td>
-        <td>Linkdln</td>
-    </tr>
-</table>
