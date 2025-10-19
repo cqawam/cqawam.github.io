@@ -101,7 +101,7 @@ cdn:
 
 # the avatar on sidebar, support local or CORS resources
 
-avatar: images/inappsec.png
+avatar: assets/img/inappsec.png
 
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.

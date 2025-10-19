@@ -2,7 +2,7 @@
 title: Life as It Is Lately
 author: cqawam
 pin: true
-image: images/life_update.png
+image: assets/img/life_update.png
 ---
 
 

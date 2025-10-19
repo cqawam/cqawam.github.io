@@ -3,7 +3,7 @@ title: bWAPP SQL Injection (GET /Search) Medium
 author: cqawam
 categories: [Web Security]
 tags: [OWASP, Injection, Web security]
-image: images/bwapp_sqli/sqli_bwapp0.png
+image: assets/img/posts/bwapp_sqli/sqli_bwapp0.png
 ---
 The fun part about solving vulnerable labs, CTF challenges, or even bug bounties is the thrill of bypassing filters and dodging defense mechanisms. It's an eternal cat-and-mouse game, hackers chasing hackers (or sometimes, just chasing their own tails).
 
@@ -76,7 +76,7 @@ With that in place, I wanted to confirm the character set was successfully chang
 ' UNION SELECT null, @@character_set_client, @@character_set_connection, null, @@character_set_results, null FROM 
 ```  
 
-![](../images/bwapp_sqli/sqli_bwapp_1.png){: width = "855" .normal}
+![](assets/img/posts/bwapp_sqli/sqli_bwapp_1.png){: width = "855" .normal}
 
 Now that the groundwork is laid, it’s time to get busy. Here’s the payload I used:
 ```bash
@@ -94,7 +94,7 @@ Using the GBK trick and the flawed `addslashes()` defense still in play, I fired
 Boom. Now we have the table names, and their columns, straight from the information_schema. Basically, it’s like grabbing the blueprint to the entire database.
 
 Once you know the structure, the rest is just a matter of choosing what data to steal (uh, responsibly test... of course). It’s wild how much you can extract with just one sneaky query.  
-![](../images/bwapp_sqli/sqli_bwapp_2.png){: width = "855" .normal}
+![](assets/img/posts/bwapp_sqli/sqli_bwapp_2.png){: width = "855" .normal}
 
 I decided to push my luck and go for remote code execution by trying to drop a PHP web shell onto the server. I found this payload in the world wild web:
 ```bash

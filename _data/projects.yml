@@ -1,9 +1,11 @@
 - title: Gophercises
-  description: Exercises for budding gophers (Go Developers)
+  description: Demonstrated programming skills in Golang by solving Jon Calhon's gophercises (Go exercises).
   link: https://gitlab.com/cqawam/gophercises
-  tags: ["Go"]
+  tech: ["Go", "Coding", "Testing"]
 
 - title: Desires
-  description: Integrated SCA scan into CI/CD pipelines.
+  description: SCA scan integrated into CI/CD pipeline to detect security vulnerabilities in dependencies.
   link: https://gitlab.com/cqawam/desires
-  tags: ["DevSecOps"]
+  tech: ["DevSecOps", "CI/CD", "Security"]
+
+  
